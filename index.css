@@ -140,16 +140,19 @@ img{
 }
 
 button.get-started-btn{
-    background-color: #004400;
-    padding: 5px;
+    background-color: #ffff;
+    padding: 7px;
     border-radius: 8px;
-    color: white;
+    color: #004400;
+    font-size: 15px;
+    outline: none;
 }
 
 button.get-started-btn:hover{
     background: transparent;
     border: solid #004400 3px;
     border-radius: 8px;
+    color: white;
 
 }
 
@@ -165,6 +168,8 @@ button.get-started-btn:hover{
 section{
     padding: 5px 80px;
 }
+
+/* schedule pick up button */
 
 div.schedulepickup{
     display: flex;
@@ -187,8 +192,11 @@ div.schedulepickup button:hover{
     background: transparent;
     border: solid #004400 3px;
     border-radius: 15px;
-    color: black;
+    
 }
+
+ /* horizontal line */
+
 
 hr{
     color:black !important;
@@ -200,7 +208,158 @@ hr{
 
 
 
+/* footer styling  */
+
+
+footer{
+    width: 100%;
+    padding: 2px ;
+    position: relative;
+    background: linear-gradient(90deg, #004400 , #009900 );
+    color: white;
+}
+
+.footer-padding{
+    padding: .5rem 1.5rem;
+    }
+
+    
+.footer-box-1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 17rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    
+}
+
+div.footer-box-social{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+
+.footer-social{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-social a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+div.footer-subscribe{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div.footer-subscribe div h2{
+    margin-bottom: 15px;
+}
+
+
+div.footer-subscribe div input{
+    padding: 10px;
+    padding-right: 70px;
+    
+}
+
+div.footer-subscribe div input::placeholder {
+    color: gray;
+    font-size: 15px;
+}
+
+div.footer-subscribe div button{
+    background-color: #007700;
+    padding: 8px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
 
 
 
+div.footer-subscribe div button:hover{
+    background: transparent;
+    border: solid #004400 2px;
+    
+    
+}
 
+div.footer-links-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+div.footer-links h4{
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+}
+
+div.footer-links ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+div.footer-links ul li{
+    margin-top: 8px
+}
+
+div.footer-links ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+div.footer-links ul li a:hover{
+    text-decoration: underline white;
+}
+
+div.copyright{
+    width: 100%;
+    background-color: #002200;
+    margin-top: 2rem;
+    display: flex;
+    padding: 1rem 4rem; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+div.socials{
+    width: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+div.socials i:hover{
+    text-decoration: underline white;
+    font-size: 25px;
+
+}
