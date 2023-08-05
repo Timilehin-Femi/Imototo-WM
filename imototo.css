@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.social-icons{
+    background: transparent;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+
+
+}
+
+.social-icons a{
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+   
+}
+
+.social-icons a i {
+    background-color: #007700;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.navbar{
+    background: linear-gradient(90deg, #004400 , #009900 );
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+    
+
+}
+
+img{
+    cursor: pointer;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.navbar ul li {
+    padding: 10px 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+
+    transition: all 0.3s;
+
+    
+}
+.navbar ul li a:hover  {
+    text-decoration: underline white;
+
+}
+
+
+
+.dropdown-menu-1{
+    display: none;
+}
+
+.navbar ul li:hover .dropdown-menu-1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #007700;
+
+
+}
+
+.navbar ul li:hover .dropdown-menu-1 ul{
+    display: block;
+    
+    
+    margin: 5px;
+} 
+
+.navbar ul li:hover .dropdown-menu-1 ul li{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+    
+    width: 200px;
+    padding: 10px;
+
+
+}
+
+.dropdown-menu-2{
+    display: none;
+}
+
+.navbar ul li:hover .dropdown-menu-2{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #007700;
+
+
+}
+
+.navbar ul li:hover .dropdown-menu-2 ul{
+    display: block;
+    margin: 5px;
+} 
+
+.navbar ul li:hover .dropdown-menu-2 ul li{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 10px;
+    
+    width: 170px;
+    padding: 10px;
+
+
+}
+
+button.get-started-btn{
+    background-color: #004400;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+}
+
+button.get-started-btn:hover{
+    background: transparent;
+    border: solid #004400 3px;
+    border-radius: 8px;
+
+}
+
+.divpadding{
+    background-image: linear-gradient(180deg,  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)  ), url(./assets/waste.png);
+    background-repeat: no-repeat;
+     background-size:cover;
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+
+section{
+    padding: 5px 80px;
+}
+
+div.schedulepickup{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ div.schedulepickup button{
+    background-color: #007700;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    border-radius: 40px;
+     
+}
+
+div.schedulepickup button:hover{
+    background: transparent;
+    border: solid #004400 3px;
+    border-radius: 15px;
+    color: black;
+}
+
+hr{
+    color:black !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 844px) {
+
+    .navbar{
+        background: linear-gradient(90deg, #004400 , #009900 );
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5%;
+        
+    
+    }
+    img{
+        height: 60px;
+        width: 100px;
+    }
+
+    .navbar ul li {
+        padding: 5px 5px;
+        position: relative;
+    
+    }
+    
+}
+
+
+
