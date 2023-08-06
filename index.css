@@ -157,11 +157,11 @@ button.get-started-btn:hover{
 }
 
 .divpadding{
-    background-image: linear-gradient(180deg,  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)  ), url(./assets/waste.png);
+    background-image: linear-gradient(180deg,  rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)  ), url(./assets/waste.png);
     background-repeat: no-repeat;
      background-size:cover;
     width: 100%;
-    height: 700px;
+    height: 800px;
     color: white;
 }
 
@@ -206,7 +206,177 @@ hr{
 }
 
 
+/* hero section */
 
+div.herocontent{
+    width: 100%;
+    position: absolute;
+    top: 70% ;
+    left: 60px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+     color: white;
+    
+
+
+}
+
+div.hero-intro{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+
+
+}
+
+div.heroheading{
+    font-size: 70px;
+    line-height: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    align-items: start;
+    overflow: hidden;
+    
+
+    
+}
+
+ .slider{
+    box-sizing: border-box;
+    color: white;
+    height: 100px;
+    z-index: 1;
+    animation: slider 6s linear infinite;
+
+}
+
+.slider div span{
+    margin-left: 1rem;
+}
+
+@keyframes slider{
+    0%{margin-top: -400px;}
+    5%{margin-top: -200px;}
+    25%{margin-top: -200px;}
+    30%{margin-top: -100px;}
+    65%{margin-top: -100px;}
+    70%{margin-top: 0px;}
+    100%{margin-top: 0px;}
+    
+
+}
+
+.herocontent p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 50PX;
+    line-height: 20px;
+
+
+}
+
+.herocontent button{
+    width: 25%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: white;
+    
+    
+}
+
+.herocontent button a{
+    text-decoration: none;
+    color: #003300;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.herocontent button:hover{
+    background-color: transparent;
+    color: white;
+    border: solid 3px #003300;
+}
+
+.herocontent button a:hover{
+    color: white;
+}
+
+
+/* welcome section */
+
+div.welcome-div{
+    width: 100%;
+    display: grid;
+    padding: 1rem 4rem;
+    height: auto;
+}
+
+
+div.welcome-div section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+
+}
+
+section div.service-icons{
+    
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+section div i{
+    width: 100%;
+    font-size: 30px;
+    color: #003300;
+    margin-bottom: 10px;
+}
+
+section div.welcome-div-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section div.welcome-div-heading h1{
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 100;
+}
+
+section div.welcome-div-heading p{
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+section div.welcome-div-info{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+section div.welcome-div-info p{
+    font-size: 20px;
+    line-height: 25px;
+    justify-self: center;
+    text-align: center;
+}
 
 /* footer styling  */
 
@@ -363,3 +533,4 @@ div.socials i:hover{
     font-size: 25px;
 
 }
+
