@@ -378,6 +378,216 @@ section div.welcome-div-info p{
     text-align: center;
 }
 
+/* service page styling */
+
+section.services-section{
+    width: 100%;
+    padding: 1rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px ;
+    row-gap: 2rem;
+
+}
+
+div.recycle-div{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+div.recycle-div h3{
+    line-height: 30px;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+div.recycle-div p{
+    line-height: 25px;
+    font-size: 20px;
+
+}
+
+.service-info{
+    display: flex;
+    flex-direction: column;
+     justify-items: baseline;
+     background-color: #002200;
+     color: white;
+    box-sizing: border-box;
+     padding-top: 2rem;
+     padding-left: 2rem;
+     padding-right: 2rem;
+     border: #009900;
+     border-style: double;
+     border-radius: 10px;
+     border-width: 5px;
+     height: 400px;
+
+    /* align-items:;  */
+}
+
+div.pick-up-div{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+div.pick-up-div h3{
+    line-height: 30px;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+div.pick-up-div p{
+    line-height: 25px;
+    font-size: 15px;
+}
+
+div.dumpster-div{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+
+div.dumpster-div h3{
+    line-height: 30px;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+div.dumpster-div p{
+    line-height: 25px;
+    font-size: 15px;
+
+}
+
+/* payment section styling */
+
+section div.payment-section{
+    width: 100%;
+    background-image: linear-gradient(180deg,  rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)  ), url(./assets/waste-workers.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;
+     color: white;
+     padding: 2rem 4rem;
+     margin: 0 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 3rem;
+     
+     justify-items: center;
+     align-items: center;
+     text-align: center;
+
+}
+
+section div.payment-section div h1{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+
+section div.payment-section div p{
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+
+#button {
+    background-color: #003300;
+    border: none;
+    color: white;
+    padding: 20px 34px; 
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+#button:hover{
+    text-decoration: underline white solid;
+    background: transparent;
+
+}
+
+/* 
+waste solution component */
+
+section.waste-solutions{
+    width: 100%;
+    padding: 3rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+   background-image:  linear-gradient(180deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)  ), url(./assets/pexels-pixmike-413195.jpg);;
+    color: white;
+    row-gap: 4rem;
+
+
+}
+
+section div.services-cards{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto auto auto;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+section div h1.waste-solutions{
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+div.card{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+
+}
+
+div.card h4{
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+div.card:hover{
+    background-color: #003300;
+    color: white;
+}
+
+div.card p{
+    font-size: 20px;
+    line-height: 25px
+}
+
 /* footer styling  */
 
 
