@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
 
-.social-icons{
+.social-icons {
     background: transparent;
     display: flex;
     justify-content: right;
@@ -16,12 +16,12 @@
 
 }
 
-.social-icons a{
+.social-icons a {
     padding: 8px;
     text-decoration: none;
     color: white;
     font-size: medium;
-   
+
 }
 
 .social-icons a i {
@@ -30,24 +30,30 @@
     border-radius: 50%;
 }
 
+#toggle-bars {
+    color: white;
+    font-size: 30px;
+    display: none;
 
-.navbar{
-    background: linear-gradient(90deg, #004400 , #009900 );
+}
+
+.navbar {
+    background: linear-gradient(90deg, #004400, #009900);
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.5%;
-    
+
 
 }
 
-img{
+img {
     cursor: pointer;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
     display: flex;
 
@@ -59,27 +65,28 @@ img{
 
 }
 
-.navbar ul li a{
+.navbar ul li a {
     color: white;
     text-decoration: none;
     font-size: 17px;
 
     transition: all 0.3s;
 
-    
+
 }
-.navbar ul li a:hover  {
+
+.navbar ul li a:hover {
     text-decoration: underline white;
 
 }
 
 
 
-.dropdown-menu-1{
+.dropdown-menu-1 {
     display: none;
 }
 
-.navbar ul li:hover .dropdown-menu-1{
+.navbar ul li:hover .dropdown-menu-1 {
     display: block;
     position: absolute;
     left: 0;
@@ -89,30 +96,30 @@ img{
 
 }
 
-.navbar ul li:hover .dropdown-menu-1 ul{
+.navbar ul li:hover .dropdown-menu-1 ul {
     display: block;
-    
-    
-    margin: 5px;
-} 
 
-.navbar ul li:hover .dropdown-menu-1 ul li{
+
+    margin: 5px;
+}
+
+.navbar ul li:hover .dropdown-menu-1 ul li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     row-gap: 10px;
-    
+
     width: 200px;
     padding: 10px;
 
 
 }
 
-.dropdown-menu-2{
+.dropdown-menu-2 {
     display: none;
 }
 
-.navbar ul li:hover .dropdown-menu-2{
+.navbar ul li:hover .dropdown-menu-2 {
     display: block;
     position: absolute;
     left: 0;
@@ -122,24 +129,24 @@ img{
 
 }
 
-.navbar ul li:hover .dropdown-menu-2 ul{
+.navbar ul li:hover .dropdown-menu-2 ul {
     display: block;
     margin: 5px;
-} 
+}
 
-.navbar ul li:hover .dropdown-menu-2 ul li{
+.navbar ul li:hover .dropdown-menu-2 ul li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
     row-gap: 10px;
-    
+
     width: 170px;
     padding: 10px;
 
 
 }
 
-button.get-started-btn{
+button.get-started-btn {
     background-color: #ffff;
     padding: 7px;
     border-radius: 8px;
@@ -148,7 +155,7 @@ button.get-started-btn{
     outline: none;
 }
 
-button.get-started-btn:hover{
+button.get-started-btn:hover {
     background: transparent;
     border: solid #004400 3px;
     border-radius: 8px;
@@ -156,27 +163,27 @@ button.get-started-btn:hover{
 
 }
 
-.divpadding{
-    background-image: linear-gradient(180deg,  rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)  ), url(./assets/waste.png);
+.divpadding {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/waste.png);
     background-repeat: no-repeat;
-     background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 800px;
     color: white;
 }
 
-section{
+section {
     padding: 5px 80px;
 }
 
 /* schedule pick up button */
 
-div.schedulepickup{
+div.schedulepickup {
     display: flex;
     justify-content: flex-end;
 }
 
- div.schedulepickup button{
+div.schedulepickup button {
     background-color: #007700;
     margin: 10px;
     padding: 15px;
@@ -185,21 +192,21 @@ div.schedulepickup{
     font-size: 15px;
     outline: none;
     border-radius: 40px;
-     
+
 }
 
-div.schedulepickup button:hover{
+div.schedulepickup button:hover {
     background: transparent;
     border: solid #004400 3px;
     border-radius: 15px;
-    
+
 }
 
- /* horizontal line */
+/* horizontal line */
 
 
-hr{
-    color:black !important;
+hr {
+    color: black !important;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -208,21 +215,21 @@ hr{
 
 /* hero section */
 
-div.herocontent{
+div.herocontent {
     width: 100%;
     position: absolute;
-    top: 70% ;
+    top: 70%;
     left: 60px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-     color: white;
-    
+    color: white;
+
 
 
 }
 
-div.hero-intro{
+div.hero-intro {
     font-size: 20px;
     line-height: 20px;
     font-weight: 100;
@@ -231,7 +238,7 @@ div.hero-intro{
 
 }
 
-div.heroheading{
+div.heroheading {
     font-size: 70px;
     line-height: 100px;
     height: 100px;
@@ -241,12 +248,12 @@ div.heroheading{
     justify-content: left;
     align-items: start;
     overflow: hidden;
-    
 
-    
+
+
 }
 
- .slider{
+.slider {
     box-sizing: border-box;
     color: white;
     height: 100px;
@@ -255,23 +262,43 @@ div.heroheading{
 
 }
 
-.slider div span{
+.slider div span {
     margin-left: 1rem;
 }
 
-@keyframes slider{
-    0%{margin-top: -400px;}
-    5%{margin-top: -200px;}
-    25%{margin-top: -200px;}
-    30%{margin-top: -100px;}
-    65%{margin-top: -100px;}
-    70%{margin-top: 0px;}
-    100%{margin-top: 0px;}
-    
+@keyframes slider {
+    0% {
+        margin-top: -400px;
+    }
+
+    5% {
+        margin-top: -200px;
+    }
+
+    25% {
+        margin-top: -200px;
+    }
+
+    30% {
+        margin-top: -100px;
+    }
+
+    65% {
+        margin-top: -100px;
+    }
+
+    70% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+
 
 }
 
-.herocontent p{
+.herocontent p {
     margin-top: 20px;
     font-size: 20px;
     font-weight: 50PX;
@@ -280,36 +307,37 @@ div.heroheading{
 
 }
 
-.herocontent button{
+.herocontent button {
     width: 25%;
     margin-top: 30px;
     padding: 15px;
     background-color: white;
-    
-    
+    box-shadow: 5px 5px 3px white;
+
+
 }
 
-.herocontent button a{
+.herocontent button a {
     text-decoration: none;
-    color: #003300;
+    color: black;
     font-size: 20px;
     letter-spacing: 1px;
 }
 
-.herocontent button:hover{
+.herocontent button:hover {
     background-color: transparent;
     color: white;
     border: solid 3px #003300;
 }
 
-.herocontent button a:hover{
+.herocontent button a:hover {
     color: white;
 }
 
 
 /* welcome section */
 
-div.welcome-div{
+div.welcome-div {
     width: 100%;
     display: grid;
     padding: 1rem 4rem;
@@ -317,7 +345,7 @@ div.welcome-div{
 }
 
 
-div.welcome-div section{
+div.welcome-div section {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -327,8 +355,8 @@ div.welcome-div section{
 
 }
 
-section div.service-icons{
-    
+section div.service-icons {
+
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -337,33 +365,33 @@ section div.service-icons{
 
 }
 
-section div i{
+section div i {
     width: 100%;
     font-size: 30px;
     color: #003300;
     margin-bottom: 10px;
 }
 
-section div.welcome-div-heading{
+section div.welcome-div-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section div.welcome-div-heading h1{
+section div.welcome-div-heading h1 {
     font-size: 40px;
     line-height: 80px;
     font-weight: 100;
 }
 
-section div.welcome-div-heading p{
+section div.welcome-div-heading p {
     font-size: 25px;
     line-height: 20px;
     font-weight: 100;
 }
 
-section div.welcome-div-info{
+section div.welcome-div-info {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -371,7 +399,7 @@ section div.welcome-div-info{
     margin-top: 1.5rem;
 }
 
-section div.welcome-div-info p{
+section div.welcome-div-info p {
     font-size: 20px;
     line-height: 25px;
     justify-self: center;
@@ -380,17 +408,17 @@ section div.welcome-div-info p{
 
 /* service page styling */
 
-section.services-section{
+section.services-section {
     width: 100%;
     padding: 1rem 4rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 400px 400px ;
+    grid-template-rows: 400px 400px 400px;
     row-gap: 2rem;
 
 }
 
-div.recycle-div{
+div.recycle-div {
     width: 100%;
     height: 400px;
     display: grid;
@@ -398,39 +426,39 @@ div.recycle-div{
     column-gap: 2rem;
 }
 
-div.recycle-div h3{
+div.recycle-div h3 {
     line-height: 30px;
     font-size: 50px;
     font-weight: 100;
     margin-bottom: 2rem;
 }
 
-div.recycle-div p{
+div.recycle-div p {
     line-height: 25px;
     font-size: 20px;
 
 }
 
-.service-info{
+.service-info {
     display: flex;
     flex-direction: column;
-     justify-items: baseline;
-     background-color: #002200;
-     color: white;
+    justify-items: baseline;
+    background-color: #002200;
+    color: white;
     box-sizing: border-box;
-     padding-top: 2rem;
-     padding-left: 2rem;
-     padding-right: 2rem;
-     border: #009900;
-     border-style: double;
-     border-radius: 10px;
-     border-width: 5px;
-     height: 400px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: #009900;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 5px;
+    height: 400px;
 
     /* align-items:;  */
 }
 
-div.pick-up-div{
+div.pick-up-div {
     width: 100%;
     height: 500px;
     display: grid;
@@ -438,19 +466,19 @@ div.pick-up-div{
     column-gap: 2rem;
 }
 
-div.pick-up-div h3{
+div.pick-up-div h3 {
     line-height: 30px;
     font-size: 50px;
     font-weight: 100;
     margin-bottom: 2rem;
 }
 
-div.pick-up-div p{
+div.pick-up-div p {
     line-height: 25px;
     font-size: 15px;
 }
 
-div.dumpster-div{
+div.dumpster-div {
     width: 100%;
     height: 400px;
     display: grid;
@@ -458,14 +486,14 @@ div.dumpster-div{
     column-gap: 3rem;
 }
 
-div.dumpster-div h3{
+div.dumpster-div h3 {
     line-height: 30px;
     font-size: 50px;
     font-weight: 100;
     margin-bottom: 2rem;
 }
 
-div.dumpster-div p{
+div.dumpster-div p {
     line-height: 25px;
     font-size: 15px;
 
@@ -473,35 +501,35 @@ div.dumpster-div p{
 
 /* payment section styling */
 
-section div.payment-section{
+section div.payment-section {
     width: 100%;
-    background-image: linear-gradient(180deg,  rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)  ), url(./assets/waste-workers.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/waste-workers.jpg);
     height: 500px;
     background-repeat: no-repeat;
-     background-size:cover;
-     background-position: center;
-     color: white;
-     padding: 2rem 4rem;
-     margin: 0 0;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     gap: 3rem;
-     
-     justify-items: center;
-     align-items: center;
-     text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem 4rem;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 
 }
 
-section div.payment-section div h1{
+section div.payment-section div h1 {
     width: 100%;
     font-size: 30px;
     font-weight: 100;
-    
+
 }
 
-section div.payment-section div p{
+section div.payment-section div p {
     width: 100%;
     font-size: 20px;
     line-height: 20px;
@@ -515,15 +543,15 @@ section div.payment-section div p{
     background-color: #003300;
     border: none;
     color: white;
-    padding: 20px 34px; 
+    padding: 20px 34px;
     text-align: center;
     text-decoration: none;
-     display: inline-block;
+    display: inline-block;
     font-size: 20px;
     cursor: pointer;
-} 
+}
 
-#button:hover{
+#button:hover {
     text-decoration: underline white solid;
     background: transparent;
 
@@ -532,7 +560,7 @@ section div.payment-section div p{
 /* 
 waste solution component */
 
-section.waste-solutions{
+section.waste-solutions {
     width: 100%;
     padding: 3rem 3rem;
     display: grid;
@@ -541,49 +569,79 @@ section.waste-solutions{
     justify-content: center;
     justify-items: center;
     text-align: center;
-   background-image:  linear-gradient(180deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)  ), url(./assets/pexels-pixmike-413195.jpg);;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./assets/pexels-pixmike-413195.jpg);
+    ;
     color: white;
     row-gap: 4rem;
 
 
 }
 
-section div.services-cards{
+section div.services-cards {
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     row-gap: 2rem;
     column-gap: 2rem;
 }
 
-section div h1.waste-solutions{
+section div h1.waste-solutions {
     font-size: 40px;
     line-height: 20px;
     font-weight: 300;
     margin-bottom: 20px;
+
 }
 
-div.card{
+section div p.Solutions-caption{
+    margin-top: 20px;
+    line-height: 20px;
+
+}
+
+section div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+
+section div a button{
+    background-color: #002200;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 1rem;
+
+}
+
+
+
+div.card {
     background-color: white;
     color: black;
     padding: 1rem;
+    border-width: 10px;
+    border-top-style: double ;
+    border-left-style:double  ;
+    border-radius: 20px;
 
 }
 
-div.card h4{
+div.card h4 {
     margin-bottom: 10px;
     font-size: 25px;
     line-height: 30px;
 
 }
 
-div.card:hover{
+div.card:hover {
     background-color: #003300;
     color: white;
 }
 
-div.card p{
+div.card p {
     font-size: 20px;
     line-height: 25px
 }
@@ -591,20 +649,20 @@ div.card p{
 /* footer styling  */
 
 
-footer{
+footer {
     width: 100%;
-    padding: 2px ;
+    padding: 2px;
     position: relative;
-    background: linear-gradient(90deg, #004400 , #009900 );
+    background: linear-gradient(90deg, #004400, #009900);
     color: white;
 }
 
-.footer-padding{
+.footer-padding {
     padding: .5rem 1.5rem;
-    }
+}
 
-    
-.footer-box-1{
+
+.footer-box-1 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -612,11 +670,11 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
-    
-    
+
+
 }
 
-div.footer-box-social{
+div.footer-box-social {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -624,7 +682,7 @@ div.footer-box-social{
 }
 
 
-.footer-social{
+.footer-social {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -632,29 +690,29 @@ div.footer-box-social{
     margin-top: 15px;
 }
 
-.footer-social a{
+.footer-social a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
 
-div.footer-subscribe{
+div.footer-subscribe {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-div.footer-subscribe div h2{
+div.footer-subscribe div h2 {
     margin-bottom: 15px;
 }
 
 
-div.footer-subscribe div input{
+div.footer-subscribe div input {
     padding: 10px;
     padding-right: 70px;
-    
+
 }
 
 div.footer-subscribe div input::placeholder {
@@ -662,7 +720,7 @@ div.footer-subscribe div input::placeholder {
     font-size: 15px;
 }
 
-div.footer-subscribe div button{
+div.footer-subscribe div button {
     background-color: #007700;
     padding: 8px;
     outline: none;
@@ -673,14 +731,14 @@ div.footer-subscribe div button{
 
 
 
-div.footer-subscribe div button:hover{
+div.footer-subscribe div button:hover {
     background: transparent;
     border: solid #004400 2px;
-    
-    
+
+
 }
 
-div.footer-links-section{
+div.footer-links-section {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -689,7 +747,7 @@ div.footer-links-section{
     margin-top: 3rem;
 }
 
-div.footer-links h4{
+div.footer-links h4 {
     font-size: 20px;
     font-weight: 100;
     cursor: pointer;
@@ -697,40 +755,40 @@ div.footer-links h4{
 
 }
 
-div.footer-links ul{
+div.footer-links ul {
     list-style: none;
     text-decoration: none;
 
 }
 
-div.footer-links ul li{
+div.footer-links ul li {
     margin-top: 8px
 }
 
-div.footer-links ul li a{
+div.footer-links ul li a {
     list-style: none;
     text-decoration: none;
     color: white;
 
-    
+
 }
 
-div.footer-links ul li a:hover{
+div.footer-links ul li a:hover {
     text-decoration: underline white;
 }
 
-div.copyright{
+div.copyright {
     width: 100%;
     background-color: #002200;
     margin-top: 2rem;
     display: flex;
-    padding: 1rem 4rem; 
+    padding: 1rem 4rem;
     justify-content: space-between;
     align-items: center;
 
 }
 
-div.socials{
+div.socials {
     width: 30%;
     display: flex;
     flex-wrap: nowrap;
@@ -738,9 +796,120 @@ div.socials{
     align-items: start;
 }
 
-div.socials i:hover{
+div.socials i:hover {
     text-decoration: underline white;
     font-size: 25px;
 
 }
 
+
+/* tablet screen responsiveness */
+
+@media (max-width: 844px) {
+    #toggle-bars {
+        color: white;
+        font-size: 30px;
+        display: grid;
+        position: relative;
+      right: -90%;
+        bottom: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column; 
+        align-items: start;
+        height: auto;
+    }
+
+    .navbar ul {
+       
+        position: relative;
+        top: 10%;
+         width: 100%;
+        list-style: none;
+        display: none;
+         grid-template-columns: 1fr;
+         justify-items:center ;
+        
+
+
+    }
+
+    .navbar ul li {
+        padding: 10px 20px;
+        position: relative;
+        text-align: center;
+        
+        
+        
+    
+    }
+
+    .navbar ul li:hover{
+        font-weight:bold;
+        
+    }
+
+    .navbar ul.active{
+        display: grid;
+
+    }
+    
+
+
+}
+
+/* moblie screen responsiveness */
+
+@media (max-width: 450px) {
+    #toggle-bars {
+        color: white;
+        font-size: 20px;
+        display: grid;
+        position: relative;
+         right: -80%;
+        bottom: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column; 
+        align-items: start;
+        height: auto;
+    }
+
+    .navbar ul {
+       
+        position: relative;
+        top: 50%;
+         width: 100%;
+        list-style: none;
+        display: none;
+         grid-template-columns: 1fr;
+         justify-items:right ;
+        
+
+
+    }
+
+    .navbar ul li {
+        padding: 10px 20px;
+        position: relative;
+        text-align: center;
+        
+        
+        
+    
+    }
+
+    .navbar ul li:hover{
+        font-weight:bold;
+        
+    }
+
+    .navbar ul.active{
+        display: grid;
+
+    }
+}
